@@ -1,0 +1,8 @@
+hu\unideb\inf\FXMLStudentsSceneController.class
+hu\unideb\inf\model\Phone.class
+hu\unideb\inf\dao\ContactDAO.class
+hu\unideb\inf\model\Phone$PhoneType.class
+hu\unideb\inf\Main.class
+hu\unideb\inf\MainApp.class
+hu\unideb\inf\dao\ContactsDAOImpl.class
+hu\unideb\inf\model\Contacts.class
