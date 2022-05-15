@@ -12,7 +12,7 @@ import java.util.Properties;
 public class ContactsDAOImpl implements ContactDAO{
     private static final String SELECT_ALL_CONTACTS = "SELECT * FROM CONTACT";
 
-    //https://www.sqlite.org/2022/sqlite-tools-win32-x86-3380500.zip    SQLite
+    //SQLite3 az adatbázishoz GitHub-on lesz
 
     private Properties props = new Properties();
     private static String connectionURL;
