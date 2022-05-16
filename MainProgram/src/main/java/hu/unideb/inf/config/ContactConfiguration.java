@@ -23,5 +23,4 @@ public class ContactConfiguration {
         return props.getProperty(key);
     }
 
-    //28 percnel jarok
 }

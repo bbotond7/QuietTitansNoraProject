@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50c7f91d-26ed-4d31-8a32-a008841098be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/config/ContactConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/dao/PhoneDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/dao/PhoneDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/config/ContactConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/config/ContactConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/dao/ContactsDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/dao/ContactsDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/dao/PhoneDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/dao/PhoneDAOImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

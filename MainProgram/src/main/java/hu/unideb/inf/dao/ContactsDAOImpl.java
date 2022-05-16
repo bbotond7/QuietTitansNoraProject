@@ -22,7 +22,7 @@ public class ContactsDAOImpl implements ContactDAO{
     private static String connectionURL;
 
     public ContactsDAOImpl() {
-        ContactConfiguration.getValue("db.url");
+        connectionURL = ContactConfiguration.getValue("db.url");
     }
 
     @Override
