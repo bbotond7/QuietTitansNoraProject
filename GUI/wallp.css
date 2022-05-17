@@ -1,0 +1,28 @@
+.bodybg{
+ -fx-background-image: url('wallp1.jpg');
+ -fx-background-size: 100% 100%;
+}
+.settings{
+-fx-graphic: url(icons/settings.png);
+-fx-content-display: left;
+}
+.schoolinfo{
+-fx-graphic: url(icons/school.png);
+-fx-content-display: left;
+}
+.calendar{
+-fx-graphic: url(icons/calendar.png);
+-fx-content-display: left;
+}
+.exam{
+-fx-graphic: url(icons/exam.png);
+-fx-content-display: left;
+}
+.students{
+-fx-graphic: url(icons/students.png);
+-fx-content-display: left;
+}
+.teacher{
+-fx-graphic: url(icons/teacher.png);
+-fx-content-display: left;
+}
