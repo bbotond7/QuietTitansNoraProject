@@ -1,26 +1,25 @@
 package hu.unideb.inf;
 
-import hu.unideb.inf.dao.ContactDAO;
-import hu.unideb.inf.dao.ContactsDAOImpl;
 import javafx.application.Application;
 import static javafx.application.Application.launch;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
+
+import java.io.IOException;
 
 
 public class MainApp extends Application {
 
+    private static Stage stage;
+
     @Override
     public void start(Stage stage) throws Exception {
 
-        ContactDAO dao = new ContactsDAOImpl();
-        dao.findAll().forEach(System.out::println);
+        MainApp.stage = stage;
+        MainApp.loadFXML("/fxml/main_window.fxml");
 
-        var scene = new Scene(new StackPane(new Label("sffsg")), 640, 480);
-        stage.setScene(scene);
         stage.show();
 
         /* ez volt benne eredetileg
@@ -38,6 +37,22 @@ public class MainApp extends Application {
         stage.setTitle("JavaFX and Maven");
         stage.setScene(scene);
         stage.show();*/
+    }
+
+    public static FXMLLoader loadFXML(String fxml){
+
+        FXMLLoader loader = new FXMLLoader(MainApp.class.getResource(fxml));
+        Scene scene = null;
+        try {
+            Parent root = loader.load();
+            scene = new Scene(root);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        stage.setScene(scene);
+        return loader;
+
     }
 
     /**
