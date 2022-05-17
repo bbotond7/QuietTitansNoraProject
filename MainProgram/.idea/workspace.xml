@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50c7f91d-26ed-4d31-8a32-a008841098be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../sqlite-tools-win32-x86-3380500/sqldiff.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sqlite-tools-win32-x86-3380500/sqlite3.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sqlite-tools-win32-x86-3380500/sqlite3_analyzer.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/contacts.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/contacts.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/QuietTitansNoraProject-1.0-SNAPSHOT-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/QuietTitansNoraProject-1.0-SNAPSHOT-shaded.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/QuietTitansNoraProject-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/QuietTitansNoraProject-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SchoolManagementSystem/.idea/runConfigurations.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +134,8 @@
       <workItem from="1652697994594" duration="13120000" />
       <workItem from="1652797491059" duration="1058000" />
       <workItem from="1652805631190" duration="1070000" />
+      <workItem from="1652806719521" duration="361000" />
+      <workItem from="1652807153869" duration="23000" />
     </task>
     <servers />
   </component>
