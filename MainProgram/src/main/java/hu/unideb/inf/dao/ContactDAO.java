@@ -1,14 +1,14 @@
 package hu.unideb.inf.dao;
 
-import hu.unideb.inf.model.Contacts;
+import hu.unideb.inf.model.Contact;
 
 import java.util.List;
 
 public interface ContactDAO {
 
-    List<Contacts> findAll();
+    List<Contact> findAll();
 
-    Contacts save(Contacts contact);
+    Contact save(Contact contact);
 
-    void delete(Contacts contact);
+    void delete(Contact contact);
 }

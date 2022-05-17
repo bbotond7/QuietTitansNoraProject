@@ -4,7 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50c7f91d-26ed-4d31-8a32-a008841098be" name="Changes" comment="" />
+    <list default="true" id="50c7f91d-26ed-4d31-8a32-a008841098be" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/config/ContactConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/controller/AddEditContactController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/controller/MainWindowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/dao/ContactDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/dao/PhoneDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/dao/PhoneDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/add_edit_contact.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/main_window.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/FXMLStudentsSceneController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/dao/ContactDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/dao/ContactDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/dao/ContactsDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/model/Contacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/model/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/model/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/model/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/contacts.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/contacts.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/FXMLStudentsScene.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/QuietTitansNoraProject-1.0-SNAPSHOT-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/QuietTitansNoraProject-1.0-SNAPSHOT-shaded.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/QuietTitansNoraProject-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/QuietTitansNoraProject-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/contacts.db" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/contacts.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/FXMLStudentsScene.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hu/unideb/inf/FXMLStudentsSceneController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hu/unideb/inf/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/unideb/inf/MainApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hu/unideb/inf/dao/ContactDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/unideb/inf/dao/ContactDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hu/unideb/inf/dao/ContactsDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hu/unideb/inf/model/Contacts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hu/unideb/inf/model/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/unideb/inf/model/Phone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,11 +50,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -34,14 +74,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;SQL Inserts&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/B3NC3Zz/QuietTitansNoraProject/MainProgram&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.HTTP Request&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
+    ]
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="hu.unideb.inf.model" />
@@ -110,11 +158,28 @@
       <workItem from="1646034257070" duration="1454000" />
       <workItem from="1646035790087" duration="343000" />
       <workItem from="1646036411662" duration="91000" />
+      <workItem from="1652613912906" duration="16356000" />
+      <workItem from="1652633183654" duration="343000" />
+      <workItem from="1652633560253" duration="574000" />
+      <workItem from="1652634536590" duration="199000" />
+      <workItem from="1652697994594" duration="13120000" />
+      <workItem from="1652797491059" duration="303000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

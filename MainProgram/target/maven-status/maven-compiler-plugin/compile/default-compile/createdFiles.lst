@@ -1,8 +1,13 @@
-hu\unideb\inf\FXMLStudentsSceneController.class
+hu\unideb\inf\controller\MainWindowController$1.class
+hu\unideb\inf\controller\MainWindowController.class
+hu\unideb\inf\model\Contact.class
 hu\unideb\inf\model\Phone.class
 hu\unideb\inf\dao\ContactDAO.class
 hu\unideb\inf\model\Phone$PhoneType.class
 hu\unideb\inf\Main.class
+hu\unideb\inf\dao\PhoneDAOImpl.class
+hu\unideb\inf\controller\AddEditContactController.class
 hu\unideb\inf\MainApp.class
-hu\unideb\inf\dao\ContactsDAOImpl.class
-hu\unideb\inf\model\Contacts.class
+hu\unideb\inf\config\ContactConfiguration.class
+hu\unideb\inf\dao\ContactDAOImpl.class
+hu\unideb\inf\dao\PhoneDAO.class
