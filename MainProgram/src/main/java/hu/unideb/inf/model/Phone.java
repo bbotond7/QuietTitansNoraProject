@@ -69,4 +69,9 @@ public class Phone {
     public void setPhoneType(PhoneType phoneType) {
         this.phoneType.set(phoneType);
     }
+
+    @Override
+    public String toString() {
+        return number.getValue() + " (" + phoneType.getName() + ")";
+    }
 }

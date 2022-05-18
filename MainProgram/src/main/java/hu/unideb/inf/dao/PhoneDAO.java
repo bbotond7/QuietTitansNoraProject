@@ -11,4 +11,6 @@ public interface PhoneDAO {
     List<Phone> findAllByContactsId(int contactsId);
     Phone save(Phone p, int contactId);
     void delete(Phone p);
+
+    void deleteALL(int contactId);
 }

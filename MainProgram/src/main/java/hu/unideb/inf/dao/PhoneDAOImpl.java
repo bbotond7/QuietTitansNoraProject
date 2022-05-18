@@ -100,4 +100,9 @@ public class PhoneDAOImpl implements PhoneDAO{
             throwables.printStackTrace();
         }
     }
+
+    @Override
+    public void deleteALL(int contactId) {
+        findAllByContactsId(contactId).forEach(this::delete);
+    }
 }
