@@ -1,5 +1,6 @@
 package hu.unideb.inf.controller;
 
+import com.sun.glass.ui.MenuItem;
 import hu.unideb.inf.MainApp;
 import hu.unideb.inf.dao.ContactDAO;
 import hu.unideb.inf.dao.ContactDAOImpl;
@@ -85,7 +86,7 @@ public class AddEditContactController  implements Initializable {
     }
 
     @Override
-    public void initialize(URL location, ResourceBundle resources) {
+    public void initialize(URL url, ResourceBundle resourceBundle) {
         phones.setCellFactory(param -> {
             ListCell<Phone> cell = new ListCell<>();
             ContextMenu contextMenu = new ContextMenu();

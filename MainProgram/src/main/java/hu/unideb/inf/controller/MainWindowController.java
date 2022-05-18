@@ -80,7 +80,6 @@ public class MainWindowController implements Initializable {
         controller.setContact(c);
 
     }
-
     private void deleteContacts(Contact c) {
         Alert confirm = new Alert(Alert.AlertType.CONFIRMATION, "Are you sure you want to delete this contact?" + c.getName(), ButtonType.YES, ButtonType.NO);
         confirm.showAndWait().ifPresent(buttonType -> {
@@ -89,16 +88,17 @@ public class MainWindowController implements Initializable {
             }
         });
     }
-
-
-
     private void refreshTable() {
         contactsTable.getItems().setAll(dao.findAll());
     }
-
-
     @FXML
     public void onExit(){
         Platform.exit();
+    }
+    @FXML
+    public void onAddNewContact(){
+        FXMLLoader fxmlLoader = MainApp.loadFXML("/fxml/add_edit_contact.fxml");
+        AddEditContactController controller = fxmlLoader.getController();
+        controller.setContact(new Contact());
     }
 }

@@ -53,7 +53,7 @@
       <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
          <children>
             <ListView fx:id="phones" prefHeight="200.0" prefWidth="200.0" />
-            <Button mnemonicParsing="false" text="Add">
+            <Button mnemonicParsing="false" text="Add" onAction="#addNewPhone">
                <VBox.margin>
                   <Insets bottom="5.0" left="5.0" top="5.0" />
                </VBox.margin>
