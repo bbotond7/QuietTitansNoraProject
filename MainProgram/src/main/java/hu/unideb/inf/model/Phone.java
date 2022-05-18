@@ -72,6 +72,6 @@ public class Phone {
 
     @Override
     public String toString() {
-        return number.getValue() + " (" + phoneType.getName() + ")";
+        return number.getValue() + " (" + phoneType.getValue() + ")";
     }
 }

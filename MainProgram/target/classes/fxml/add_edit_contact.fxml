@@ -38,17 +38,17 @@
       <Label text="Position" GridPane.rowIndex="6" />
       <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0" GridPane.columnSpan="2" GridPane.rowIndex="7">
          <children>
-            <Button mnemonicParsing="false" text="Save" onAction="#onSave"/>
-            <Button mnemonicParsing="false" text="Cancel" onAction="#onCancel"/>
+            <Button mnemonicParsing="false" onAction="#onSave" text="Save" />
+            <Button mnemonicParsing="false" onAction="#onCancel" text="Cancel" />
          </children>
          <padding>
             <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
          </padding>
       </HBox>
-      <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" />
-      <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" />
-      <TextField GridPane.columnIndex="1" GridPane.rowIndex="4" />
-      <TextField GridPane.columnIndex="1" GridPane.rowIndex="6" />
+      <TextField fx:id="name" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <TextField fx:id="email" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <TextField fx:id="address" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <TextField fx:id="position" GridPane.columnIndex="1" GridPane.rowIndex="6" />
       <DatePicker fx:id="dateOfBirth" prefHeight="25.0" prefWidth="431.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
       <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
          <children>

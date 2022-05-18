@@ -12,13 +12,20 @@ import javafx.beans.binding.When;
 import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.ContextMenu;
 import javafx.scene.control.DatePicker;
 import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.control.TextField;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
 
+import javax.imageio.IIOException;
 import java.awt.*;
+import java.io.IOException;
 import java.net.URL;
 import java.sql.SQLOutput;
 import java.util.List;
@@ -53,12 +60,12 @@ public class AddEditContactController  implements Initializable {
         List<Phone> phonesList = phoneDAO.findAllByContactsId(c.getId());
         contact.setPhones(FXCollections.observableArrayList(phonesList));
 
-        //name.textProperty().bindBidirectional(contact.nameProperty());
-        //email.textProperty().bindBidirectional(contact.emailProperty());
+        name.textProperty().bindBidirectional(contact.nameProperty());
+        email.textProperty().bindBidirectional(contact.emailProperty());
         phones.itemsProperty().bindBidirectional(contact.phonesProperty());
-        //address.textProperty().bindBidirectional(contact.addressProperty());
+        address.textProperty().bindBidirectional(contact.addressProperty());
         dateOfBirth.valueProperty().bindBidirectional(contact.dateOfBirthProperty());
-        //position.textProperty().bindBidirectional(contact.positionProperty());
+        position.textProperty().bindBidirectional(contact.positionProperty());
 
     }
     @FXML
@@ -70,7 +77,10 @@ public class AddEditContactController  implements Initializable {
     public void onSave(){
         contact = contactDAO.save(contact);
         phoneDAO.deleteALL(contact.getId());
-        contact.getPhones().forEach(phone -> phoneDAO.save(phone, contact.getId()));
+        contact.getPhones().forEach(phone -> {
+            phone.setId(0);
+            phoneDAO.save(phone, contact.getId());
+        });
         MainApp.loadFXML("/fxml/main_window.fxml");
     }
 
@@ -79,12 +89,13 @@ public class AddEditContactController  implements Initializable {
         phones.setCellFactory(param -> {
             ListCell<Phone> cell = new ListCell<>();
             ContextMenu contextMenu = new ContextMenu();
+            javafx.scene.control.MenuItem editItem = new javafx.scene.control.MenuItem("Edit");
+            javafx.scene.control.MenuItem deleteItem = new javafx.scene.control.MenuItem("Delete");
 
-            MenuItem editItem = new MenuItem("Edit");
-            MenuItem deleteItem = new MenuItem("Delete");
+            //MenuItem editItem = new MenuItem("Edit");
+            //MenuItem deleteItem = new MenuItem("Delete");
 
-            contextMenu.getItems().addAll(editItem,deleteItem);
-
+            contextMenu.getItems().addAll(editItem, deleteItem);
             editItem.setOnAction(event -> {
                 Phone item = cell.getItem();
                 showPhoneDialog(item);
@@ -108,8 +119,28 @@ public class AddEditContactController  implements Initializable {
 
         });
     }
+    @FXML
+    public void addNewPhone(){
+        showPhoneDialog();
+    }
 
     private void showPhoneDialog(Phone phone) {
+        Stage stage = new Stage();
+        stage.initModality(Modality.APPLICATION_MODAL);
 
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/add_edit_phone.fxml"));
+        try {
+            Parent root = loader.load();
+            AddEditPhoneController controller = loader.getController();
+            controller.init(stage, phone, contact);
+            stage.setScene(new Scene(root));
+            stage.showAndWait();
+        }
+        catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+    private void showPhoneDialog(){
+        showPhoneDialog(new Phone());
     }
 }
