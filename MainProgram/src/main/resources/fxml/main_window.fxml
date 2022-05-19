@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.unideb.inf.controller.MainWindowController">
+<BorderPane prefHeight="400.0" prefWidth="600.0" styleClass="bodybg" stylesheets="@../styles/Styles.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.unideb.inf.controller.MainWindowController">
    <top>
       <MenuBar BorderPane.alignment="CENTER">
         <menus>
@@ -27,7 +27,7 @@
       </MenuBar>
    </top>
    <center>
-      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+      <VBox prefHeight="200.0" prefWidth="100.0" styleClass="button" BorderPane.alignment="CENTER">
          <children>
             <Label text="List of contact">
                <font>
@@ -45,12 +45,12 @@
       </VBox>
    </center>
    <left>
-      <VBox  spacing="10" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+      <VBox prefHeight="200.0" prefWidth="100.0" spacing="10" BorderPane.alignment="CENTER">
          <children>
             <Label lineSpacing="10.0" text="Search by Name" />
-            <TextField fx:id="nameSearch" onKeyReleased="#onSearch"/>
+            <TextField fx:id="nameSearch" onKeyReleased="#onSearch" />
             <Label lineSpacing="10.0" text="Search by Email" />
-            <TextField fx:id="emailSearch" onKeyReleased="#onSearch"/>
+            <TextField fx:id="emailSearch" onKeyReleased="#onSearch" />
          </children></VBox>
    </left>
 </BorderPane>
