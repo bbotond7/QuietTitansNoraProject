@@ -11,7 +11,7 @@ import java.util.Properties;
 
 public class ContactDAOImpl implements ContactDAO{
     private static final String SELECT_ALL_CONTACTS = "SELECT * FROM CONTACT";
-    private static final String INSERT_CONTACT = "INSERT INTO CONTACT (name, email, address, dateOfBirth, position) VALUES (?,?,?,?,?,?)";
+    private static final String INSERT_CONTACT = "INSERT INTO CONTACT (name, email, address, dateOfBirth, position) VALUES (?,?,?,?,?)";
     private static final String UPDATE_CONTACT = "UPDATE  CONTACT  SET name = ?, email = ?, address = ?, dateOfBirth = ?, position = ? WHERE  id = ?";
     private static final String DELETE_CONTACT = "DELETE  FROM CONTACT WHERE id = ?";
 

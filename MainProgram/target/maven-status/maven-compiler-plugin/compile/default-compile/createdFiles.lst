@@ -6,6 +6,7 @@ hu\unideb\inf\dao\ContactDAO.class
 hu\unideb\inf\model\Phone$PhoneType.class
 hu\unideb\inf\Main.class
 hu\unideb\inf\dao\PhoneDAOImpl.class
+hu\unideb\inf\controller\AddEditPhoneController.class
 hu\unideb\inf\controller\AddEditContactController.class
 hu\unideb\inf\MainApp.class
 hu\unideb\inf\config\ContactConfiguration.class

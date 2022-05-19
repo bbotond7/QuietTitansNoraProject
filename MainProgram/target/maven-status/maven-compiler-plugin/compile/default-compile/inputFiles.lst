@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\B3NC3Zz\QuietTitansNoraProject\MainProgram\src\main\java\hu\unideb\inf\MainApp.java
 C:\Users\B3NC3Zz\QuietTitansNoraProject\MainProgram\src\main\java\hu\unideb\inf\controller\AddEditContactController.java
 C:\Users\B3NC3Zz\QuietTitansNoraProject\MainProgram\src\main\java\hu\unideb\inf\controller\MainWindowController.java
@@ -9,3 +10,17 @@ C:\Users\B3NC3Zz\QuietTitansNoraProject\MainProgram\src\main\java\hu\unideb\inf\
 C:\Users\B3NC3Zz\QuietTitansNoraProject\MainProgram\src\main\java\hu\unideb\inf\Main.java
 C:\Users\B3NC3Zz\QuietTitansNoraProject\MainProgram\src\main\java\hu\unideb\inf\config\ContactConfiguration.java
 C:\Users\B3NC3Zz\QuietTitansNoraProject\MainProgram\src\main\java\hu\unideb\inf\model\Contact.java
+=======
+C:\Users\punisherbeast\QuietTitansNoraProject\MainProgram\src\main\java\hu\unideb\inf\config\ContactConfiguration.java
+C:\Users\punisherbeast\QuietTitansNoraProject\MainProgram\src\main\java\hu\unideb\inf\controller\AddEditPhoneController.java
+C:\Users\punisherbeast\QuietTitansNoraProject\MainProgram\src\main\java\hu\unideb\inf\Main.java
+C:\Users\punisherbeast\QuietTitansNoraProject\MainProgram\src\main\java\hu\unideb\inf\dao\PhoneDAO.java
+C:\Users\punisherbeast\QuietTitansNoraProject\MainProgram\src\main\java\hu\unideb\inf\model\Contact.java
+C:\Users\punisherbeast\QuietTitansNoraProject\MainProgram\src\main\java\hu\unideb\inf\dao\ContactDAO.java
+C:\Users\punisherbeast\QuietTitansNoraProject\MainProgram\src\main\java\hu\unideb\inf\dao\PhoneDAOImpl.java
+C:\Users\punisherbeast\QuietTitansNoraProject\MainProgram\src\main\java\hu\unideb\inf\controller\MainWindowController.java
+C:\Users\punisherbeast\QuietTitansNoraProject\MainProgram\src\main\java\hu\unideb\inf\model\Phone.java
+C:\Users\punisherbeast\QuietTitansNoraProject\MainProgram\src\main\java\hu\unideb\inf\controller\AddEditContactController.java
+C:\Users\punisherbeast\QuietTitansNoraProject\MainProgram\src\main\java\hu\unideb\inf\MainApp.java
+C:\Users\punisherbeast\QuietTitansNoraProject\MainProgram\src\main\java\hu\unideb\inf\dao\ContactDAOImpl.java
+>>>>>>> a79c37f98fd7a0d7997f2ea11a8eeeb70d1734d1
