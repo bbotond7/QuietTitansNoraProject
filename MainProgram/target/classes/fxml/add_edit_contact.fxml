@@ -19,6 +19,7 @@
    <columnConstraints>
       <ColumnConstraints minWidth="10.0" percentWidth="30.0" prefWidth="100.0" />
       <ColumnConstraints minWidth="10.0" percentWidth="70.0" prefWidth="100.0" />
+      <ColumnConstraints minWidth="10.0" percentWidth="70.0" prefWidth="100.0" />
    </columnConstraints>
    <children>
       <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnSpan="2">
@@ -38,7 +39,7 @@
       <Label text="Position" GridPane.rowIndex="6" />
       <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0" GridPane.columnSpan="2" GridPane.rowIndex="7">
          <children>
-            <Button mnemonicParsing="false" onAction="#onSave" text="Save" />
+            <Button fx:id="saveBtn" mnemonicParsing="false" onAction="#onSave" text="Save" />
             <Button mnemonicParsing="false" onAction="#onCancel" text="Cancel" />
          </children>
          <padding>
@@ -53,12 +54,16 @@
       <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
          <children>
             <ListView fx:id="phones" prefHeight="200.0" prefWidth="200.0" />
-            <Button mnemonicParsing="false" text="Add" onAction="#addNewPhone">
+            <Button mnemonicParsing="false" onAction="#addNewPhone" text="Add">
                <VBox.margin>
                   <Insets bottom="5.0" left="5.0" top="5.0" />
                </VBox.margin>
             </Button>
          </children>
       </VBox>
+      <Label fx:id="nameErrors" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Label fx:id="emailErrors" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <Label fx:id="addressErrors" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+      <Label fx:id="positionErrors" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="6" />
    </children>
 </GridPane>

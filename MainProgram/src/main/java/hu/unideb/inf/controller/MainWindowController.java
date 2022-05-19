@@ -13,12 +13,13 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.HBox;
 
 import java.net.URL;
+import java.util.List;
 import java.util.ResourceBundle;
+import java.util.stream.Collectors;
 
 public class MainWindowController implements Initializable {
-
+    private List<Contact> all;
     ContactDAO dao = new ContactDAOImpl();
-
     @FXML
     private TableView<Contact> contactsTable;
 
@@ -30,7 +31,15 @@ public class MainWindowController implements Initializable {
 
     @FXML
     private TableColumn<Contact, Void> actionsColumn;
-
+    @FXML
+    private TextField nameSearch;
+    @FXML
+    private TextField emailSearch;
+    @FXML
+    public void onSearch(){
+        List<Contact> filtered = all.stream().filter(contact -> contact.getName().contains(nameSearch.getText()) && contact.getEmail().contains(emailSearch.getText())).collect(Collectors.toList());
+        contactsTable.getItems().setAll(filtered);
+    }
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         refreshTable();
@@ -89,7 +98,8 @@ public class MainWindowController implements Initializable {
         });
     }
     private void refreshTable() {
-        contactsTable.getItems().setAll(dao.findAll());
+        all = dao.findAll();
+        contactsTable.getItems().setAll(all);
     }
     @FXML
     public void onExit(){

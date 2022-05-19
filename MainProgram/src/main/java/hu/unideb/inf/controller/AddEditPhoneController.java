@@ -13,7 +13,6 @@ import java.util.ResourceBundle;
 
 
 public class AddEditPhoneController implements Initializable {
-
     private Stage stage;
     private Phone phone;
     private Contact contact;
@@ -22,23 +21,21 @@ public class AddEditPhoneController implements Initializable {
         this.stage = stage;
         this.phone = phone;
         this.contact = contact;
-
         number.textProperty().bindBidirectional(this.phone.numberProperty());
         phoneType.valueProperty().bindBidirectional(this.phone.phoneTypeProperty());
+        if(phoneType.getSelectionModel().isEmpty()){
+            phoneType.getSelectionModel().selectLast();
+        }
     }
-
     @FXML
     private TextField number;
-
     @FXML
     private ComboBox<Phone.PhoneType> phoneType;
-
     @Override
     public void initialize(URL location, ResourceBundle resourceBundle) {
         phoneType.getItems().setAll(Phone.PhoneType.values());
-
+        phoneType.getSelectionModel().selectFirst();
     }
-
     @FXML
     public void onCancel(){
         stage.close();;
