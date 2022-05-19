@@ -3,7 +3,6 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
 <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.unideb.inf.controller.AddEditPhoneController">
    <columnConstraints>
       <ColumnConstraints minWidth="10.0" percentWidth="50.0" prefWidth="100.0" />
@@ -15,12 +14,12 @@
       <RowConstraints minHeight="10.0" percentHeight="10.0" prefHeight="30.0" />
    </rowConstraints>
    <children>
-      <Label text="Number" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
-      <Label text="PhoneType" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+      <Label text="Szám" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+      <Label text="Telefontípus" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
       <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0" GridPane.columnSpan="2" GridPane.rowIndex="2">
          <children>
-            <Button mnemonicParsing="false" text="Save" onAction="#onSave"/>
-            <Button mnemonicParsing="false" text="Cancel" onAction="#onCancel"/>
+            <Button mnemonicParsing="false" onAction="#onSave" text="Save" />
+            <Button mnemonicParsing="false" onAction="#onCancel" text="Cancel" />
          </children>
       </HBox>
       <TextField fx:id="number" GridPane.columnIndex="1" />

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<BorderPane prefHeight="400.0" prefWidth="600.0" styleClass="bodybg" stylesheets="@../styles/Styles.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.unideb.inf.controller.MainWindowController">
+<BorderPane prefHeight="400.0" prefWidth="600.0" styleClass="bodybg" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.unideb.inf.controller.MainWindowController">
    <top>
       <MenuBar BorderPane.alignment="CENTER">
         <menus>
@@ -27,9 +28,9 @@
       </MenuBar>
    </top>
    <center>
-      <VBox prefHeight="200.0" prefWidth="100.0" styleClass="button" BorderPane.alignment="CENTER">
+      <VBox alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="100.0" styleClass="button" BorderPane.alignment="CENTER">
          <children>
-            <Label text="List of contact">
+            <Label text="Kontaktok listája">
                <font>
                   <Font size="26.0" />
                </font>
@@ -45,12 +46,26 @@
       </VBox>
    </center>
    <left>
-      <VBox prefHeight="200.0" prefWidth="100.0" spacing="10" BorderPane.alignment="CENTER">
+      <VBox alignment="TOP_CENTER" prefHeight="308.0" prefWidth="116.0" spacing="10" BorderPane.alignment="CENTER">
          <children>
-            <Label lineSpacing="10.0" text="Search by Name" />
+            <Label lineSpacing="10.0" text="Keresés név szerint" />
             <TextField fx:id="nameSearch" onKeyReleased="#onSearch" />
-            <Label lineSpacing="10.0" text="Search by Email" />
+            <Label lineSpacing="10.0" prefHeight="17.0" prefWidth="115.0" text="Keresés Email szerint" />
             <TextField fx:id="emailSearch" onKeyReleased="#onSearch" />
          </children></VBox>
    </left>
+   <bottom>
+      <VBox alignment="BOTTOM_LEFT" prefHeight="67.0" prefWidth="600.0" BorderPane.alignment="TOP_LEFT">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nora Project" wrappingWidth="164.25390625">
+               <font>
+                  <Font name="Poor Richard" size="34.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+      </VBox>
+   </bottom>
 </BorderPane>
