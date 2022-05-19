@@ -1,7 +1,3 @@
 .button {
     -fx-font-weight: bold;
 }
-.bodybg{
-    -fx-background-image: url('wallp1.jpg');
-    -fx-background-size: 100% 100%;
-}
