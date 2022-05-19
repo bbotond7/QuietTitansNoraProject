@@ -5,9 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50c7f91d-26ed-4d31-8a32-a008841098be" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/styles/wallp1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/main/resources/contacts.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/contacts.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/styles/Styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/styles/Styles.css" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/controller/AddEditContactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/controller/AddEditContactController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/controller/AddEditPhoneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/controller/AddEditPhoneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/controller/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/controller/MainWindowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/contacts.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/contacts.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/add_edit_contact.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/add_edit_contact.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/main_window.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/main_window.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/styles/Styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/styles/Styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/QuietTitansNoraProject-1.0-SNAPSHOT-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/QuietTitansNoraProject-1.0-SNAPSHOT-shaded.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/QuietTitansNoraProject-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/QuietTitansNoraProject-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/contacts.db" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/contacts.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/add_edit_contact.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/add_edit_contact.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/main_window.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/main_window.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hu/unideb/inf/controller/AddEditContactController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/unideb/inf/controller/AddEditContactController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hu/unideb/inf/controller/AddEditPhoneController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/unideb/inf/controller/AddEditPhoneController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hu/unideb/inf/controller/MainWindowController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/unideb/inf/controller/MainWindowController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hu/unideb/inf/controller/MainWindowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/unideb/inf/controller/MainWindowController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/styles/Styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/styles/Styles.css" afterDir="false" />
+>>>>>>> dev_AM_vol3
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +74,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;database.data.extractors.current.export.id&quot;: &quot;SQL Inserts&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/punisherbeast/QuietTitansNoraProject/MainProgram&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.HTTP Request&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -138,6 +159,9 @@
       <workItem from="1652805631190" duration="1070000" />
       <workItem from="1652806719521" duration="361000" />
       <workItem from="1652807153869" duration="23000" />
+      <workItem from="1652807825245" duration="14000" />
+      <workItem from="1652887241378" duration="20779000" />
+      <workItem from="1652947480854" duration="2708000" />
     </task>
     <servers />
   </component>
@@ -157,6 +181,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.reflect.InvocationTargetException" package="java.lang.reflect" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.sqlite.SQLiteException" package="org.sqlite" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
